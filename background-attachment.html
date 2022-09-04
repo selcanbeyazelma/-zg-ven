@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .bg{
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+        .bg-image1{
+           height: 100vh;
+            background-image: url("bg4.jpg");
+        }
+        .bg-image2{
+            height: 50vh;
+            background-image: url("bg2.jpg");
+        }
+        .caption{
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            
+        }
+        .caption .border{
+            background-color: black;
+            padding: 20px;
+            font-size: 35px;
+            text-transform: uppercase;
+            color: bisque;
+            letter-spacing: 10px;
+        }
+        .box{
+            color: burlywood;
+            background-color: #fff;
+            text-align: center;
+            padding: 50px 80px;
+        }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: burlywood;
+        border-right: 1px solid #bbb;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        }
+
+        li {
+        float: left;
+        border-right: 1px solid #bbb;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: #111;
+        }
+        .active {
+        background-color: #ff9966;
+        }
+ 
+
+        li:last-child {
+        border-right: none;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="bg bg-image1">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a class="active" href="#about">About</a></li>
+          </ul>
+        <div class="caption">
+            <span class="border" >Kişisel Gelişim</span>
+        </div>
+        <div class="box">
+            <h3>ÖZGÜVEN</h3>
+            <p>
+                Öz güven, kişinin kendi değeri hakkındaki subjektif değerlendirmesi ve kişinin kendi özelliklerinin ne ölçüde olumlu ya da olumsuz olduğu hakkındaki yorumudur. Öz güven hem kişinin kendisine ilişkin düşünceleri (Örnek: "Zekiyim, sevilen bir insanım"), hem bu düşüncelerin yol açtığı duyguları (umutsuzluk, utanç, gurur), hem de bu duygu ve düşüncelerin ifadesi olan davranışları (çekingenlik, dikkat, iddiacılık) içerir. Öz güveni süreklilik gösteren bir kişilik özelliği olarak ve geçici bir psikolojik durum olarak düşünmek mümkündür. Son olarak, öz güven sınırlı bir alan için geçerli olabileceği gibi (Örnek: "Zeytinyağlı sarmayı iyi yapabildiğimi düşünüyorum ve bu becerimle gurur duyuyorum"), genel bir kavram olarak da düşünülebilir (Örnek: "İyi bir insan olduğumu düşünüyorum ve bu nedenle kendimle her zaman gurur duyuyorum").
+            </p>
+
+        </div>
+        
+    </div>
+    <div class="bg bg-image2">
+        <div class="caption">
+            <span class="border">Kişisel Gelişim</span>
+        </div>
+        <div class="box">
+            <h3>PSİKOLOJİDE ETKİSİ</h3>
+            <p>
+                Psikoloji bakış açısında, "güven" birçok farklı şekilde tanımlanmaktadır. Güvenin genel olarak çocukluk çağında ilk olarak anne-baba ile geliştiği bilinmektedir. Çocukluk çağında gelişen güvenin ileriki yaşlarda gelişen sosyal ilişkilere transfer edildiği öne sürülür. Örneğin, Erik Erikson'ın psikososyal gelişim modelinde güven duygusu ilk basamaktır. Bebekler ilk iki yıllarında ilk önce bakım vericilerine güven duyarlar, korunmuşluk hissini yaşarlar ve hep yanında olacaklarına dair iyimserlik duyarlar. Güven bu aşamada gelişmediğinde ise bebekler kendilerini tehlikeye açık hissederek ebeveynlere karşı güvensizlik hissederler.
+            </p>
+           
+            
+
+        </div>
+        
+    </div>
+</body>
+</html>
